@@ -51,3 +51,20 @@ Configurando app para producción:
 2. ejecutar en consola: ng build --prod
 
 Para las funcionalidades "nuevas de virtual scroll y drag and drop"
+
+*************************************************
+Utilicemos algo de teoria 
+*************************************************
+1. Las variables si son declaradas con let solo existiran en ese espacio que este separado por ejemplo por las {}, lo que llaman "scope" 
+
+2. Función de flecha:
+
+*Una de las principales funciones es que el this no toma el valor de las variables globales, si no que las que tiene en el bloque en que se encuentra, podriamos decir que simplemente es un nueva forma de crear funciones anonimas mas elegante y sencilla
+
+3. Promesas:
+* Da la posibilidad de ejecutar una tarea cuando una tarea asincrona es realizada, se puede decir que es mas para funciones que tiene procesos asincronos, es la capacidad que se tiene de decidir que hacer si el proceso asincrono termino bien o mal.
+
+Cuando llamanos la promesa le podemos agregar funciones anonimas que determinan el proceso que va a realizar una vez termine el proceso asincrono
+
+4. Pipes:
+*Es como una forma de formatear los datos, la logica de como se muestran los datos podria hacerlo las mismas clases, pero de alguna manera se separa la logica de como formatear el dato que le va a entregar a la vista

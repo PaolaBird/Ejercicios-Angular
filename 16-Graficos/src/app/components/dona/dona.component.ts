@@ -28,7 +28,7 @@ export class DonaComponent{
 
  public randomize(){
   this.doughnutChartData = [
-    Math.round( Math.random()*100),
+    Math.round( Math.random()*100 ),
     Math.round(Math.random()*100),
     Math.round(Math.random()*100),
 
