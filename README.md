@@ -1,3 +1,9 @@
+Pasos para instalar por primera vez todo el ambiente para angular:
+****Instalar****
+1. node (comprobar instalación: node -v)
+2. typeScript (npm install -g typescript)
+3. Angular (npm install -g @angular/cli), (comprobar: ng -v)
+***********************************************************************
 1. Para crear una app en Angular CLI:
 	ng new nombreApp
 2. Para levantar el servidor: ng serve (-p numeroPuerto)(4200 por defecto)
